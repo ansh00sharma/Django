@@ -1,0 +1,11 @@
+#############  Virtual Environment setup  ############
+
+pip install virtualenv
+virtualenv env
+cd env/Scripts
+activate
+
+###############
+
+pip install Django
+django-admin startproject pentagon   // project name
